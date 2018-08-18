@@ -7,9 +7,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Dancing Script', cursive;
   color: #222;
   background: #8f227d;
+  line-height: 30px;
+  font-size: large;
 }
 /* Link Styles */
 
@@ -34,7 +36,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 800;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -74,7 +76,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) skewY(10deg);
 }
 .tag {
   background-color: #efefef;
@@ -94,9 +96,11 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 10px solid #ccc;
+  border-radius: 40px;
   transition: all .5s;
+  font-size: 25px;
+  box-shadow: -15px -15px 50px #999
 }
 .card:hover {
   border-color: #ff99ff;
